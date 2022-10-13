@@ -1,0 +1,300 @@
+@import url(./fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background: #3E8989;
+
+}
+.container {
+    
+    max-width: 1535px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.menu {
+    display: flex;
+    
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__link {
+    padding: 5px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__input {
+    background: #FFFFFF;
+border-radius: 20px 0px 0px 20px;
+    padding: 8px 20px;
+font-family: 'Rubik';
+font-weight: 400;
+font-size: 16px;
+color: #898989 ;
+ outline: none;
+ border: none;
+ 
+}
+
+.search__btn {
+    background: #295E5E;
+border-radius: 0px 20px 20px 0px ;
+padding: 10px 14px;
+ border: none;
+}
+
+.banner {
+    background: url(../img/img1.png);
+    height: 800px;
+     background-repeat: round;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .banner__h {
+    font-family: 'Rubik';
+font-size: 80px;
+font-weight: 600;
+color: #ffffff;
+ text-align: center;
+ }
+
+ .banner__p {
+    font-family: 'Rubik';
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+padding-top: 20px;
+text-align: center;
+ }
+
+ .button {
+    padding-top: 50px;
+ }
+
+ .banner__btn {
+    background: #B4436C;
+border-radius: 30px;
+padding: 14px 77px;
+ }
+
+ .btn__text {
+    font-family: 'Inter';
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+ 
+color: #FFFFFF;
+
+ }
+
+ .about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+ }
+
+ .about__h {
+    font-family: 'Inter';
+font-weight: 600;
+font-size: 40px;
+color: #3E8989;
+ }
+
+ .about__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 20px;
+ }
+
+ .about__p {
+    font-family: 'Rubik';
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+padding-top: 9px;
+max-width: 545px;
+ }
+
+ .text2 {
+    padding-top: 20px;
+ }
+
+ .cards {
+    padding-top: 90px;
+  
+ }
+ .card {
+  
+    flex-basis: 25%;
+    text-align: center;
+    gap: 20px;
+ }
+
+ .cards__wrap {
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+     
+ }
+  
+ 
+
+ .card__img {
+    background: #EFEFEF;
+      width: 263px;
+ }
+
+ .cards__h {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3E8989;
+    text-align: center;
+ }
+
+ .card__img2 {
+    background: #EFEFEF;
+    padding:  50px 50px;
+ }
+
+ .card__img3 {
+    background: #EFEFEF;
+    padding: 50px 50px;
+ }
+
+ .card__h {
+    font-family: 'Inter';
+ 
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+transition: 0.3s;
+ }
+
+ .card__h:hover {
+    color: red;
+ }
+
+ .contact {
+    padding-top: 100px;
+ }
+
+ .contact__wrap {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .inf__h {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3E8989;
+ }
+
+ .text4 {
+    font-family: 'Rubik';
+ padding-top: 50px;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+ }
+ 
+ .text5 {
+    padding-top: 90px;
+    font-family: 'Rubik';
+ 
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+ }
+
+ .text6 {
+    padding-top: 20px;
+    font-family: 'Rubik';
+ 
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+ }
+
+.footer {
+      background: #3E8989;
+     display: flex;
+     align-items: center;
+     margin-top: 100px;
+}
+ 
+
+.footer__p {
+    font-family: 'Rubik';
+font-weight: 400;
+font-size: 14px;
+ text-align: center;
+color: #FFFFFF;
+padding-top: 89px;
+}
+
+.footer__menu {
+   display: flex;
+   margin-top: 35px;
+   align-items: center;
+   gap: 30px;
+}
+
+.footer__link {
+   padding: 5px;
+   color: white;
+   border-bottom: 2px solid transparent;
+   transition: 0.3s;
+   font-family: 'Rubik';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.footer__link:hover {
+   border-bottom: 2px solid #ffffff;
+}
